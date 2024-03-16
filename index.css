@@ -1,16 +1,30 @@
-header {
-    background-color: #0074D9;
-    color: #FFF;
+.cabecalho {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2098f3;
+    padding: 30px 30px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.16);
     text-align: center;
-    padding: 30px;
     font-size: 30px;
+    color: #FFF;
 }
+
+
 body {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 150px;
-    margin-left: 80px;
+    
+    background-color: #ffffff;
 }
+
+
+@media screen and (min-width: 1440px) {
+    body {
+        display: grid;
+        grid-template-columns: auto 1fr;
+    }
+}
+
+
 section {
     margin: 20px;
     font-size: 25px;
@@ -20,7 +34,10 @@ h2,h3 {
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #a8a5a5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2098f3;
+    padding: 8px 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
 }
