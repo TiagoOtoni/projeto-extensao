@@ -27,12 +27,18 @@
     
 }
 
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        background-color: #1D232A;
+        display: grid;
+        column-gap: 32px;
+        grid-template-columns: 1fr auto;
+        padding: 30px 60px;
+        height: 80px;
+        box-sizing: border-box;
+        grid-column: 2;
+    }
 
-
-body {
-    
-    background-color: #ffffff;
-}
 
 .principal {
     padding: 24px 16px;
@@ -48,11 +54,6 @@ body {
 }
 
 
-.principal h2,h3 {
-    text-align: center;
-    font-size: 30px;
-    margin: 20px;
-}
 
 .cartao__titulo {
     font-size: 25px;
